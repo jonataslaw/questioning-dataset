@@ -1,7 +1,7 @@
 # questioning-dataset
-A dataset of questions/answers to train IA models
+A dataset of questions/answers to fine tune IA models
 
-This dataset was used to train this Flan-T5-large model that has nice results: https://huggingface.co/Jonnylaw/flan-t5-large
+This dataset was used to fine tune this Flan-T5-large model to be able to answer questions from a natural way: https://huggingface.co/Jonnylaw/flan-t5-large
 <img width="1564" alt="Screenshot 2023-02-20 at 12 14 44" src="https://user-images.githubusercontent.com/35742643/220144625-2cb07566-d4a5-4f11-a1f6-7af741ef68d0.png">
 
 Even models with more parameters than the flan-t5-large, do not do well with questions and answers, as you can see a much larger model, cannot answer basic questions, such as who was the first president of the USA: https://huggingface.co/google/flan-t5-xl?text=Who+was+the+first+president+of+United+States%3F
